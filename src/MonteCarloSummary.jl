@@ -7,6 +7,7 @@ using VectorizedReduction: vmean, vtmean
 
 export mcsummary
 
+include("quantiles.jl")
 include("mcsummary.jl")
 
 end
