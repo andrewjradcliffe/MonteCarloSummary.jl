@@ -1,6 +1,12 @@
 using MonteCarloSummary
 using Test
 
-@testset "MonteCarloSummary.jl" begin
-    # Write your tests here.
+const tests = [
+    "mcsummary.jl",
+]
+
+for t in tests
+    @testset "Test $t" begin
+        include(t)
+    end
 end
