@@ -10,6 +10,10 @@ VectorizedReduction = "4ffe575c-65e5-43f4-bc05-e0b500dc3d2c"
 VectorizedStatistics = "3b853605-1c98-4422-8364-4bd93ee0529e"
 
 [compat]
+LoopVectorization = "0.12.150"
+VectorizedReduction = "0.1.8"
+VectorizedStatistics = "0.5.2"
+Statistics = "0.1.9"
 julia = "1"
 
 [extras]
